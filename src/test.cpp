@@ -8,17 +8,6 @@
 
 #include "test_manager.h"
 
-/**
-*@brief Verify if the path of file exists on the user system.
-*@param path String containing the path of a file.
-*@return Returns a boolean true if the file exists, or false if not.
-*/
-inline bool verify_file_exists(const std::string &name)
-{
-  std::ifstream f(name.c_str());
-  return f.good();
-}
-
 int main()
 {
   std::string path = "test.txt";
