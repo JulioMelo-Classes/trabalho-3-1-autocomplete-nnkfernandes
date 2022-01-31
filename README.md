@@ -2,7 +2,7 @@
 
 ## Descrição
 
-O programa funciona em linha de comando, onde o usuário insere uma sentença e é retornado uma listagem de combinações para a sentença.
+O programa funciona em linha de comando, onde o usuário insere uma sentença e é retornado uma listagem de combinações para a sentença a partir da base de dados que o usuário escolheu na hora de rodar o programa. 
 
 ## Executando o programa
 * Passo 00 - Para gerar os arquivos iniciais de build, ao rodar o projeto pela primeira vez, use o seguinte comando no diretório raiz: 
