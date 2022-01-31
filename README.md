@@ -13,7 +13,9 @@ O programa funciona em linha de comando, onde o usuário insere uma sentença e 
 
 * Passo 02 - Para rodar o programa, utilize, estando em ./build/, o comando:
 > ./autocomplete ../data/wiktionary.txt
-# ou
+
+ou
+
 > ./autocomplete ../data/cities.txt
 
 * Passo 03 - Para testar o programa de forma automática, use o comando abaixo (estando em ./build/):
