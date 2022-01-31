@@ -16,7 +16,7 @@ O programa funciona em linha de comando, onde o usuário insere uma sentença e 
   ou
 > ./autocomplete ../data/cities.txt
 
-* Passo 03 - Para testas o programa de forma automática, use o comando abaixo (estando em ./build/):
+* Passo 03 - Para testar o programa de forma automática, use o comando abaixo (estando em ./build/):
 > ./all_tests
 
 ## Autoria
