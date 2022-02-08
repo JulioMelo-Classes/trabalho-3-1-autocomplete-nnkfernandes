@@ -25,3 +25,41 @@ ou
 
 Anny Klarice Fernandes Souza
 [anny.klarice.fernandes.127@ufrn.edu.br]
+
+# Avaliação
+
+## Ler e validar os argumentos da linha de comando | 8 / 10
+
+- Faltou validar o conteúdo do arquivo.
+
+## Ler os dados da base de dados e armazená-los em uma classe apropriada | 10 / 10
+
+- ok
+
+## Separar a interface textual das demais classes do sistema concentrando os couts e cins em um único objeto | 10 / 10
+
+- ok
+
+## Implementação de uma classe para conter o resultado da requisição do usuário | 3 / 10
+
+- Acho que a classe match serviria para esse fim. Porém a forma como você fez, onde a classe basicamente é um conjunto de métodos
+não faz muito sentido. Uma sugestão de modelagem seria vc colocar o método de busca dentro de DataBase e retornar uma instancia da classe
+Match contendo o resultado da busca.
+
+## Implementação eficiente através de referencias e algoritmos de busca binária | 5 / 10
+
+- Voce implementou a busca binária, porém não usou da forma correta para encontrar os limites superior e inferior do conjunto. Além disso o código tem muitos
+usos de cópias, especialmente de containers. Uma sugestão é usar referencias nos parâmetros de função e retornar ponteiros (ou não retornar containers) quando
+for necessário retornar containers.
+
+## Organização do código em src, include, data | 5 / 5
+
+- ok
+
+## Documentação do código usando o padrão doxygen | 3 / 5
+
+- Faltou documentar os atributos
+
+## Implementação e documentação de arquivos de teste | 10 / 10
+
+- Acho que eu daria 11 de 10, muito bom seu esquema de testes!
